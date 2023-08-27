@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+   background-color: #212529;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logoText {
+    color: #ced4da;
+    font-family: Manrope, sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: 13px;
+    left: 15px;
+}
+
+.nav-button1 {
+    color: #ced4da;
+    position: relative;
+    display: inline-block;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 4px;
+    margin: 20px;
+    left: 80px;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.nav-button1:hover {
+     padding-right: 20px;
+     padding-left: 20px;
+     background-color: #ded9d9;  /*#5c6b73 , #46494c*/
+     color: black;
+     border-radius: 100px;
+}
+
+.nav-button2 {
+    color: #ced4da;
+    position: relative;
+    display: inline-block;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 4px;
+    margin: 20px;
+    left: 80px;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.nav-button2:hover {
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #ded9d9;
+    color: black;
+    border-radius: 100px;
+}
+
+.nav-button3 {
+    color: #ced4da;
+    position: relative;
+    display: inline-block;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 4px;
+    margin: 20px;
+    left: 80px;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.nav-button3:hover {
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #ded9d9;
+    color: black;
+    border-radius: 100px;
+}
+
+.nav-button4 {
+    color: #ced4da;
+    position: relative;
+    display: inline-block;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 4px;
+    margin: 20px;
+    left: 80px;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.nav-button4:hover {
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #ded9d9;
+    color: black;
+    border-radius: 100px;
+}
+
+.nav-button5 {
+    color: #ced4da;
+    position: relative;
+    display: inline-block;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 4px;
+    margin: 20px;
+    left: 80px;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.nav-button5:hover {
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #ded9d9;
+    color: black;
+    border-radius: 100px;
+}
+
+/* .nav-button6 {
+    color: #ced4da;
+    position: relative;
+    display: inline-block;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 4px;
+    margin: 20px;
+    left: 80px;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.nav-button6:hover {
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #ded9d9;
+    color: black;
+    border-radius: 100px;
+} */
+
+.mainPageLogo {
+    display: flex;
+    margin-top: 125px;
+    margin-left: 100px;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.homeTopText{
+    color: #ced4da ;
+    display: flex;
+    justify-content: left;
+    margin-top: -450px;
+    margin-left: 678px;
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.homeName {
+    color: #ffffff;
+    display: flex;
+    justify-content: left;
+    margin-top: -15px;
+    margin-left: 678px;
+    font-family: Poppins, sans-serif;
+    font-size: 110px;
+    font-weight: bold;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.homeDesc {
+    color: #ced4da;
+    display: flex;
+    margin-top: 1px;
+    margin-left: 690px;
+    font-family: Open Sans , sans-serif;
+    font-size: 23px;
+    font-style: italic;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* .credit {
+    color: #000000;
+    display: flex;
+    margin-top: 290px;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+}
+ */
+
+.aboutTitle {
+    color: #ced4da;
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    justify-content: center;
+    margin-top: 70px;
+    animation: fadeInAnimation ease 1s;
+}
+
+.aboutSlogan {
+    color: #ced4da;
+    display: flex;
+    font-family: Open Sans, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    margin-top: 10px;
+    animation: fadeInAnimation ease 1s;
+}
+
+.aboutDescription {
+    color: #ced4da;
+    display: flex;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    animation: fadeInAnimation ease 1s;
+}
+
+.aboutOffer {
+    color: #ced4da;
+    display: flex;
+    justify-content: center;
+    font-family: Poppins, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    animation: fadeInAnimation ease 1s;
+}
+
+.offerList {
+    color: #ced4da;
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: 550;
+    animation: fadeInAnimation ease 1s;
+}
+
+
+.offerList2 {
+    color: #ced4da;
+    font-family: Montserrat, sans-serif;
+    font-weight: 550 ;
+    display: flex;
+    justify-content: center;
+    margin-left: -718px;
+    animation: fadeInAnimation ease 1s;
+}
